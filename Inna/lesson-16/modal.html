@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Lesson 16</title>
+		<meta charset="utf-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+    <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+    <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+
+    <link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+      
+    <button id="modal-open">Нажми на меня</button>  
+      
+    <div style="display: none;">
+      <!-- Modal start-->
+    <div class="box-modal" id="exampleModal">
+        <div class="box-modal_close arcticmodal-close">X</div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <!-- Modal END -->
+
+    </div>
+    <!-- <script>
+      $(function(){
+      $('#exampleModal').arcticmodal();
+      });
+    </script> -->
+
+    <script>
+      $(function(){
+        $("#modal-open").on('click', function(){
+          $('#exampleModal').arcticmodal();
+        })
+      });
+    </script>
+
+
+	</body>
+</html> 
+
+
+
