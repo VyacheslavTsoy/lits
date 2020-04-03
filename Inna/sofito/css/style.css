@@ -18,6 +18,10 @@ button, input{
 	outline: none;
 }
 
+.container{
+	max-width: 1170px;
+}
+
 .p-0 {
   padding: 0 !important;
 }
@@ -127,6 +131,10 @@ button, input{
 				padding: 0 30px 0 30px;
 			}
 
+			.header__bottom-item--border{
+
+			}
+
 			.header__bottom-item-icon{
 				padding: 0 10px 0 0;
 
@@ -221,13 +229,16 @@ button, input{
 				color: #36be99;
 			}
 
+			.nav__list-link{
+				font-size: 16px;
+			}
+
 	.nav__search{
 		height: 70px;
 		display: flex;
 		justify-content: flex-end;
 		align-items: center;
 	}
-	
 		.nav__search-field{
 			display: flex;
 			justify-content: flex-end;
@@ -361,6 +372,15 @@ button, input{
 
 	.welcome-section__main-title{
 		font-weight: bold;
+	}
+
+	.welcome-section__main-title::after{
+		display: block;
+		width: 40px;
+		height: 3px;
+		background-color: #36be99;
+		margin: 10px auto 0;
+		content: "";
 	}
 
 	.welcome-section__main-title-underline{
