@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Medical Center</title>
+	<script src="https://kit.fontawesome.com/cf1622d7f0.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:600,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<!--Header markup-->
+
+	<header class="header">
+
+		<!--Header-top markup-->
+
+		<div class="header-top">
+			<div class="container">
+        <div class="header-top__inner"> 
+				  <div class="header-top__contacts">
+					  <div class="header-top__adress"><a href="https://www.google.com/maps/d/viewer?msa=0&mid=1bf4qwgGAMWSKS2N2GnGJRONqRTs&ll=40.743932987377235%2C-73.96783300000004&z=12" target="blank">1556, Broadway, New York, NY, 10120, USA</a></div>
+					  <div class="header-top__mail"><a href="https://gmail.com" target="blank">
+					  sofito_clinic@info.com</a></div>
+          </div>
+				  <div class="header-top__social">
+					  <a class="facebook" href="https://facebook.com" target="blank"></a>
+					  <a class="twitter" href="https://twitter.com" target="blank"></a>
+					  <a class="google" href="https://google.com" target="blank"></a>
+					  <a class="pinterest" href="https://pinterest.com" target="blank"></a>
+					  <a class="instagram" href="https://instagram.com" target="blank"></a>
+				  </div>
+        </div>
+      </div>
+		</div>
+
+		<!--Header-bottom markup-->
+
+		<header class="header-bottom">
+			<div class="container">
+        <div class="header-bottom__inner">
+				  <div class="header-bottom__logo">
+					  <img src="https://via.placeholder.com/110x35.png?text=110X35" alt="">
+				  </div>
+				  <div class="header-bottom__info">
+				    <i class="fas fa-phone-alt"></i>
+				    <div class="header-bottom__info-phone">
+				      <a  href="tel:1234567890"><p><b>+(123) 456 7890</b></p></a>
+				      <p>Call Us Free</p>
+				    </div>
+				    <i class="far fa-clock"></i>
+				    <div class="header-bottom__info-date">
+				      <a href="#"><p><b>7:00 AM - 8:00 PM</b></p></a>
+				      <p>Monday - Sunday</p>
+            </div>
+				    <div class="header-bottom__info-button">
+				      <div class="info-button__inner">
+                <a href="#app" >Book an Appointment</a>
+              </div>
+				    </div>
+			    </div>
+        </div>
+		  </div>
+	  </header>
+
+  <!--Header end-->
+
+  </header>
+
+	<!--Nav markup-->
+
+	<nav class="nav">
+		<div class="container">
+      <div class="nav__inner">
+			 <ul class="nav__list">
+				<li class="nav__list-item">
+					<a class="nav__list-link" href="#">HOME</a>
+				</li>
+				<li class="nav__list-item">
+					<a class="nav__list-link" href="#">PAGES</a>
+				</li>
+				<li class="nav__list-item">
+					<a class="nav__list-link" href="#">PORTFOLIO</a>
+				</li>
+				<li class="nav__list-item">
+					<a class="nav__list-link" href="#">BLOG</a>
+				</li>
+				<li class="nav__list-item">
+					<a class="nav__list-link" href="#">SHORTCODES</a>
+				</li>
+				<li class="nav__list-item">
+					<a class="nav__list-link" href="#">SHOP</a>
+				</li>
+			 </ul>
+       <div class="nav__btn">
+        <form action="#" name="form" method="post" enctype="multipart/form-data">
+			     <input  type="search" name="search" value="" placeholder="Search here...">
+			     <button><i class="fas fa-search"></i></button>
+			  </form>
+			 </div>
+      </div>
+		</div>
+	</nav>
+
+	<!--Slider-Bootstrap-Carousel markup-->
+
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+      <ol class="carousel-indicators">
+       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+       <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+     <div class="carousel-inner">
+       <div class="carousel-item active">
+         <img src="https://via.placeholder.com/1920x860.png?text=1920X860-1" class="d-block w-100" alt="...">
+         <div class="carousel-caption d-none d-md-block">
+           <h5>WE CARE ABOUT YOUR HEALTH</h5>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero dolorem
+           	quos voluptas aspernatur, ad quis,<p>repellat tempore consectetur quod.</p>
+           <a href="#" class="slider__btn">read more</a>
+		       <a data-fancybox data-src="#modal" href="javascript:;" class="slider__contact">contact us</a>
+         </div>
+       </div>
+       <div class="carousel-item">
+         <img src="https://via.placeholder.com/1920x860.png?text=1920X860-2" class="d-block w-100" alt="...">
+         <div class="carousel-caption d-none d-md-block">
+           <h5>WE CARE ABOUT YOUR HEALTH</h5>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, praesentium at nobis nihil cupiditate facilis</p><p>error recusandae illo magnam!</p>
+           <a href="#" class="slider__btn">read more</a>
+		       <a data-fancybox data-src="#modal" href="javascript:;" class="slider__contact">contact us</a>
+        </div>
+       </div>
+       <div class="carousel-item">
+         <img src="https://via.placeholder.com/1920x860.png?text=1920X860-3" class="d-block w-100" alt="...">
+         <div class="carousel-caption d-none d-md-block">
+           <h5>WE CARE ABOUT YOUR HEALTH</h5>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, provident nam ea nobis facere eligendi ipsam</p><p>adipisci sint illum inventore dolore</p>
+           <a href="#" class="slider__btn">read more</a>
+		       <a data-fancybox data-src="#modal" href="javascript:;" class="slider__contact">contact us</a>
+         </div>
+       </div>
+       </div>
+         <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="sr-only">Previous</span>
+         </a>
+         <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="sr-only">Next</span>
+         </a>
+    </div>
+
+    <!--Welcome section markup-->
+
+    <section class="welcome">
+      <div class="container">
+    	<div class="welcome__title">
+    		<div class="welcome__title-header"><h3>Welcome To Our Clinic</h3></div>
+    		<div class="welcome__title-text"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p><p>Reiciendis nisi sapiente unde fugiat fugit exercitationem consequatur in molestias delectus.</p><p>Ipsum earum fugit autem necessitatibus non natus aperiam. Nihil, culpa, officia?</p></div>
+    	</div>
+    	<div class="row">
+    		<div class="col-4">
+    		   <div class="welcome__img">
+    			  <img src="https://via.placeholder.com/360x200.png?text=360X200" alt="">
+    		   </div>
+    		   <div class="icon-1"></div>
+    		     <div class="welcome__content">
+    		   	   <h4>primary medical care</h4>
+    		   	   <p>Lorem ipsum dolor sit amet, consectetur elit. Quam nesciunt reiciendis rem, atque excepturi, autem, sunt optio laborum, ut enim ad minim</p>
+    		     </div>
+    		   <a href="#" class="slider__btn welcome__btn">read more</a>
+    		</div>
+    		<div class="col-4">
+    			<div class="welcome__img">
+    			  <img src="https://via.placeholder.com/360x200.png?text=360X200" alt="">
+    			</div>
+    			<div class="icon-2"></div>
+    			  <div class="welcome__content">
+    		   	    <h4>laboratory</h4>
+    		   	    <p>Lorem ipsum dolor sit amet, consectetur  elit. Quam nesciunt reiciendis rem, atque excepturi, autem, sunt optio laborum, ut enim ad minim</p>
+    		    </div>
+    		   <a href="#" class="slider__btn welcome__btn">read more</a>
+    		</div>
+    		<div class="col-4">
+    			<div class="welcome__img">
+    			  <img src="https://via.placeholder.com/360x200.png?text=360X200" alt="">
+    			</div>
+    			<div class="icon-3"></div>
+    			  <div class="welcome__content">
+    		   	    <h4>vaccinations</h4>
+    		   	    <p>Lorem ipsum dolor sit amet, consectetur  elit. Quam nesciunt reiciendis rem, atque excepturi, autem, sunt optio laborum, ut enim ad minim</p>
+    		    </div>
+    		   <a href="#" class="slider__btn welcome__btn">read more</a>
+    		</div>
+    	  </div>
+    	</div>
+      </section>
+
+      <!--Departments section markup-->
+
+      <section class="departments" id="dep">
+      	  <div class="container">
+      	    <div class="departments__title">
+      	      <div class="departments__title-header"><h3>Clinic Departments</h3></div>
+      	    </div>
+      	    <div class="row">
+              <div class="col-1">
+                <div class="icon-d-1"></div>
+              </div>
+      	   	  <div class="col-3">
+                <div class="departments__inner">
+                  <h4>Neurology</h4>
+      	   	 	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolore adipisci cupiditate veritatis?</p>
+      	   	 	    <div class="read">
+      	   	 	      <a href="#">read more</a>
+      	   	 	    </div>
+                </div>
+      	   	  </div>
+              <div class="col-1">
+                 <div class="icon-d-2"></div>
+              </div>
+      	   	  <div class="col-3">
+                <div class="departments__inner">
+      	   	      <h4>Cardiology</h4>
+      	   	 	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolore adipisci cupiditate veritatis?</p>
+      	   	 	    <div class="read">
+      	   	 	       <a href="#">read more</a>
+      	   	 	    </div>
+                </div>
+      	   	 	</div>
+              <div class="col-1">
+                 <div class="icon-d-3"></div>
+              </div>
+      	   	  <div class="col-3">
+                <div class="departments__inner">
+      	   	        <h4>Pediatrics</h4>
+      	   	 	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolore adipisci cupiditate veritatis?</p>
+      	   	 	      <div class="read">
+      	   	 	       <a href="#">read more</a>
+      	   	 	      </div>
+                </div>
+      	   	 	</div>
+      	    </div>
+      	    <div class="row">
+              <div class="col-1">
+                <div class="icon-d-4"></div>
+              </div>
+      	      <div class="col-3">
+                <div class="departments__inner">
+      	   	        <h4>Rheumatology</h4>
+      	   	 	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolore adipisci cupiditate veritatis,?</p>
+      	   	 	      <div class="read">
+      	   	 	       <a href="#">read more</a>
+      	   	 	      </div>
+                </div>
+      	   	 	</div>
+              <div class="col-1">
+                <div class="icon-d-5"></div>
+              </div>
+      	   	  <div class="col-3">
+                <div class="departments__inner">
+      	   	         <h4>Physiotherapy</h4>
+      	   	 	       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolore adipisci cupiditate veritatis?</p>
+      	   	 	       <div class="read">
+      	   	 	        <a href="#">read more</a>
+      	   	 	       </div>
+                </div>
+      	   	 	</div>
+              <div class="col-1">
+                <div class="icon-d-6"></div>
+              </div>
+      	   	  <div class="col-3">
+                <div class="departments__inner">
+      	   	         <h4>Oncology</h4>
+      	   	 	       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolore adipisci cupiditate veritatis?</p>
+      	   	 	       <div class="read">
+      	   	 	        <a href="#">read more</a>
+      	   	 	       </div>
+                </div>
+      	   	 	</div>
+      	     </div>
+          </div>   
+       </section>
+
+       <!--Features section markup-->
+
+       <section class="features">
+       	 <div class="container">
+       	   <div class="row">
+       	     <div class="col-1">
+                 <div class="icon-f-1"></div>
+             </div>
+       	  	 <div class="col-2">
+               <div class="features__inner">
+       	     	   <h1>544</h1>
+       	     	   <p>CLINICS IN THE WORLD</p>
+       	       </div>
+             </div>
+             <div class="col-1">
+                 <div class="icon-f-2"></div>
+             </div>
+             <div class="col-2">
+               <div class="features__inner">
+                 <h1>435</h1>
+                 <p>HOSPITAL ROOMS</p>
+               </div>
+             </div>
+             <div class="col-1">
+                 <div class="icon-f-3"></div>
+             </div>
+             <div class="col-2">
+               <div class="features__inner">
+                 <h1>245</h1>
+                 <p>QUALIFIED DOCTORS</p>
+               </div>
+             </div>
+             <div class="col-1">
+                 <div class="icon-f-4"></div>
+             </div>
+             <div class="col-2">
+               <div class="features__inner">
+                 <h1>7000K</h1>
+                 <p>SATISFIED PATIENTS</p>
+               </div>
+             </div>
+           </div>	
+       	 </div>
+       </section>
+
+       <!--Doctors section markup-->
+
+       <section class="doctors" id="doc">
+       	 <div class="container">
+       	 	<div class="doctors__title">
+       	 		<div class="doctors__title-header">
+       	 		  <h3>Our Professional Doctors</h3>
+            </div>
+       	 	</div>
+       	 	<div class="row">
+       	 		<div class="col-4">
+       	 			 <div class="doctors__img">
+       	 				 <img src="https://via.placeholder.com/320x400.png?text=320X400">
+       	 			 </div>	  
+       	 				 <div class="doctors__block">
+       	 			       <div class="doctors__social">
+       	 			       	<a href="https://facebook.com" target="blank"><i class="fab fa-facebook-f"></i></a>
+       	 			       	<a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+       	 			       	<a href="https://linkedin.com" target="blank"><i class="fab fa-linkedin-in"></i></a>
+       	 			       	<a href="https://youtube.com" target="blank"><i class="fab fa-youtube"></i></a>
+       	 			       </div>
+       	 			       <div class="doctors__mail">
+       	 			       	<a href="https://gmail.com" target="blank"><i class="far fa-envelope"></i></a>
+       	 			       </div>
+       	 			     </div> 
+       	 			   <h4>Jonathan Doe</h4>
+       	 			   <p>Surgeon</p>
+       	 		</div>
+       	 		<div class="col-4">
+       	 			 <div class="doctors__img">
+       	 				 <img src="https://via.placeholder.com/320x400.png?text=320X400">
+       	 			 </div>	 
+       	 				 <div class="doctors__block">
+       	 			       <div class="doctors__social">
+       	 			       	<a href="https://facebook.com" target="blank"><i class="fab fa-facebook-f"></i></a>
+       	 			       	<a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+       	 			       	<a href="https://linkedin.com" target="blank"><i class="fab fa-linkedin-in"></i></a>
+       	 			       	<a href="https://youtube.com" target="blank"><i class="fab fa-youtube"></i></a>
+       	 			       </div>
+       	 			       <div class="doctors__mail">
+       	 			       	<a href="https://gmail.com" target="blank"><i class="far fa-envelope"></i></a>
+       	 			       </div>
+       	 			     </div> 
+       	 			   <h4>Monica Smith</h4>
+       	 			   <p>Pediatrician</p>
+       	 		</div>
+       	 		<div class="col-4">
+       	 			<div class="doctors__img">
+       	 				 <img src="https://via.placeholder.com/320x400.png?text=320X400">
+       	 			</div>	  
+       	 				 <div class="doctors__block">
+       	 			       <div class="doctors__social">
+       	 			       	<a href="https://facebook.com" target="blank"><i class="fab fa-facebook-f"></i></a>
+       	 			       	<a href="https://twitter.com" target="blank"><i class="fab fa-twitter"></i></a>
+       	 			       	<a href="https://linkedin.com" target="blank"><i class="fab fa-linkedin-in"></i></a>
+       	 			       	<a href="https://youtube.com" target="blank"><i class="fab fa-youtube"></i></a>
+       	 			       </div>
+       	 			       <div class="doctors__mail">
+       	 			       	<a href="https://gmail.com" target="blank"><i class="far fa-envelope"></i></a>
+       	 			       </div>
+       	 			     </div> 
+       	 			   <h4>David Walker</h4>
+       	 			   <p>Opthalmologist</p>
+       	 		</div>
+       	 	</div>
+       	 </div>
+       </section>
+
+       <!--Appointment section markup-->
+
+       <section class="appointment" id="app">
+       	  <div class="app-1">
+       	  	<img src="https://via.placeholder.com/750x581.png?text=750X581">
+       	  </div>
+       	  <!--<div class="app-2">
+       	  	<img src="https://via.placeholder.com/1120x558.png?text=1120X580">-->
+       	  
+       	  	<div class="app-2-form">
+       	  		<div class="app-2-form__title">Book an Appointment</div>
+       	  		<div class="app-2-form__text">Need a help? Please, fill out the form below.</div>
+       	  		<div class="app-2-form__forms">
+       	  			<div class="app-2-form__forms-1">
+       	  			  <form action="#" method="post" enctype="multipart/form-data">
+       	  				<div class="app-2-form__icons ic-name"><input type="text" placeholder="Name"></div>
+                        <div class="app-2-form__icons ic-phone"><input type="tel" placeholder="Phone"></div>
+                        <div class="app-2-form__icons ic-date"><input type="date" placeholder="Date"><div class="time-icon"><i class="fas fa-calendar-alt"></i></div></div>
+                        <input type="submit" class="app-2-form__btn"  value="Submit">
+                      </form>
+       	  			</div>
+       	  			<div class="app-2-form__forms-2">
+       	  			  <form action="#" method="post" enctype="multipart/form-data">
+       	  				<div class="app-2-form__icons ic-email"><input type="email" placeholder="Email"></div>
+       	  				<div class="app-2-form__icons ic-doctor">
+       	  					<input type="text" name="search" placeholder="Doctor" list="search">
+        	                <datalist id="search">
+        	                	<option value="Jonathan Doe"></option>
+        	                	<option value="Monica Smith"></option>
+        	                	<option value="David Walker"></option>
+        	                </datalist>
+        	                <div class="time-icon"><i class="fas fa-angle-down"></i></div>
+                        </div>
+                        <div class="app-2-form__icons ic-time"><input type="time" Placeholder="Time"><div class="time-icon"><i class="far fa-clock"></i></div></div>
+                      </form>
+       	  			</div>
+       	  		</div>
+       	  	</div>
+       	  </div>
+       </section>
+
+       <!--Testimonials section markup-->
+
+       <section class="testimonials">
+        <div class="container">
+          <div class="carousel__item-bottom-title">What Our Patients Say</div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators testimonials-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="carousel__item-bottom-content" class="d-block w-100">
+              <div class="carousel__item-bottom-test">
+                <div class="test"><i class="fas fa-quote-left"></i><div class="test__inner"><p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni commodi blanditiis tenetur repellat nobis, recusandae </i></p></div></div>
+                <div class="test"><i class="fas fa-quote-left"></i><div class="test__inner"><p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi sint quis officiis, aspernatur atque harum in laboriosam!</i></p></div></div>
+              </div>
+              <div class="carousel__item-bottom-comments">
+                <div class="comments"></div>
+                <div class="comments"></div>
+              </div>
+              <div class="carousel__item-bottom-doctors">
+                <div class="img-doc img-doc-1">
+                    <img src="">80X80
+                </div>
+                <div class="img-text">
+                    <h5>Martha Smith</h5>
+                    <p>Graphic Designer</p>
+                </div>
+                <div class="img-doc">
+                    <img src="">80X80
+                </div>
+                <div class="img-text">
+                    <h5>David Walker</h5>
+                    <p>Web Developer</p>
+                </div>  
+               </div>
+             </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel__item-bottom-content" class="d-block w-100">
+              <div class="carousel__item-bottom-test">
+                <div class="test"><i class="fas fa-quote-left"></i><div class="test__inner"><p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni commodi blanditiis tenetur repellat nobis, recusandae </i></p></div></div>
+                <div class="test"><i class="fas fa-quote-left"></i><div class="test__inner"><p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi sint quis officiis, aspernatur atque harum in laboriosam!</i></p></div></div>
+              </div>
+              <div class="carousel__item-bottom-comments">
+                <div class="comments"></div>
+                <div class="comments"></div>
+              </div>
+              <div class="carousel__item-bottom-doctors">
+                <div class="img-doc img-doc-1">
+                    <img src="">80X80
+                </div>
+                <div class="img-text">
+                    <h5>Martha Smith</h5>
+                    <p>Graphic Designer</p>
+                </div>
+                <div class="img-doc">
+                    <img src="">80X80
+                </div>
+                <div class="img-text">
+                    <h5>David Walker</h5>
+                    <p>Web Developer</p>
+                </div>  
+               </div>
+             </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="carousel__item-bottom-content" class="d-block w-100">
+              <div class="carousel__item-bottom-test">
+                <div class="test"><i class="fas fa-quote-left"></i><div class="test__inner"><p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni commodi blanditiis tenetur repellat nobis, recusandae </i></p></div></div>
+                <div class="test"><i class="fas fa-quote-left"></i><div class="test__inner"><p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi sint quis officiis, aspernatur atque harum in laboriosam!</i></p></div></div>
+              </div>
+              <div class="carousel__item-bottom-comments">
+                <div class="comments"></div>
+                <div class="comments"></div>
+              </div>
+              <div class="carousel__item-bottom-doctors">
+                <div class="img-doc img-doc-1">
+                    <img src="">80X80
+                </div>
+                <div class="img-text">
+                    <h5>Martha Smith</h5>
+                    <p>Graphic Designer</p>
+                </div>
+                <div class="img-doc">
+                    <img src="">80X80
+                </div>
+                <div class="img-text">
+                    <h5>David Walker</h5>
+                    <p>Web Developer</p>
+                </div>  
+               </div>
+             </div>
+                </div>
+             </div>
+           </div>   
+         </div>
+       </section>
+
+       <!--Latest News section markup-->
+
+       <section class="news">
+       	  <div class="container">
+       	  	<div class="news__title"><h3>Latest News</h3></div>
+       	  	<div class="row">
+       	  		<div class="col-4">
+       	  			<div class="news__inner">
+       	  				<img src="https://via.placeholder.com/348x250.png?text=360X250">
+       	  				<div class="news__inner-header">
+       	  				  <div class="news__inner-calendar">
+       	  					<div class="news__inner-top">
+       	  						<h3>18</h3>
+       	  						<p>SEP</p>
+       	  					</div>
+       	  					<div class="news__inner-bottom"><i class="far fa-image"></i></div>
+       	  				  </div>
+       	  				  <div class="news__inner-content">
+                          <h4>Et Dolore Magna Aliqua</h4>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo pariatur sequi rerum cumque libero amet consequuntur.</p>
+                    </div>
+                  </div>
+                       <div class="news__inner-footer">
+                        	<div class="adm"><a href="#">admin</a></div>
+                        	<div class="comm"><a href="#">5 comments</a></div>
+                        	<div class="news__read">
+      	   	 	              <a href="#">read more</a>
+      	   	 	            </div>
+                       </div>
+       	  			</div>
+       	  		</div>
+       	  		<div class="col-4">
+       	  			<div class="news__inner">
+       	  				<img src="https://via.placeholder.com/348x250.png?text=360X250">
+       	  				<div class="news__inner-header">
+       	  				  <div class="news__inner-calendar">
+       	  					<div class="news__inner-top">
+       	  						<h3>20</h3>
+       	  						<p>SEP</p>
+       	  					</div>
+       	  					<div class="news__inner-bottom"><i class="far fa-image"></i></div>
+       	  				  </div>
+       	  				  <div class="news__inner-content">
+                        <h4>Enim Ad Menim Veniam</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo pariatur sequi rerum cumque libero amet consequuntur.</p>
+                    </div>
+                  </div>
+                      <div class="news__inner-footer">
+                        <div class="adm"><a href="#">admin</a></div>
+                      	<div class="comm"><a href="#">5 comments</a></div>
+                        <div class="news__read">
+      	   	 	             <a href="#">read more</a>
+      	   	 	          </div>
+                      </div>
+       	  			</div>
+       	  		</div>
+       	  		<div class="col-4">
+       	  			<div class="news__inner">
+       	  				<img src="https://via.placeholder.com/348x250.png?text=360X250">
+       	  				<div class="news__inner-header">
+       	  				  <div class="news__inner-calendar">
+       	  					<div class="news__inner-top">
+       	  						<h3>18</h3>
+       	  						<p>SEP</p>
+       	  					</div>
+       	  					<div class="news__inner-bottom"><i class="far fa-image"></i></div>
+       	  				  </div>
+       	  				  <div class="news__inner-content">
+                        <h4>Ullamco Laboris Nisi</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo pariatur sequi rerum cumque libero amet consequuntur.</p>
+                    </div>
+                  </div>
+                    <div class="news__inner-footer">
+                        <div class="adm"><a href="#">admin</a></div>
+                        <div class="comm"><a href="#">5 comments</a></div>
+                        <div class="news__read">
+      	   	 	             <a href="#">read more</a>
+      	   	 	          </div>
+                    </div>
+       	  			</div>
+       	  		</div>
+       	  	</div>
+       	  </div>
+       </section>
+
+       <!--Footer-top markup-->
+
+       <footer class="footer-top">
+       	   <div class="container">
+       	   	 <div class="row">
+       	   	 	<div class="col-3">
+                <div class="footer-top__inner">
+       	   	 		<div class="opening">
+       	   	 			<h4>Opening Hours</h4>
+       	   	 			<p class="opening__p">Quis exercitation ullamco laboris nisi ut
+       	   	 			 ut aliquip ex ea commodo</p>
+       	   	 			<p>Monday-Friday&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp7:00 AM - 8:00 PM</p>
+       	   	 			<hr align="left">
+       	   	 			<p>Saturday&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp8:00 AM - 7:00 PM</p>
+       	   	 			<hr align="left">
+       	   	 			<p>Sunday&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp8:00 AM - 6:00 PM</p>
+       	   	 		</div>
+                </div>
+       	   	 	</div>
+       	   	 	<div class="col-3">
+                <div class="footer-top__inner">
+       	   	 		 <div class="newsletter">
+       	   	 			  <h4>Newsletter Sign Up</h4>
+       	   	 			  <p>Sign up to our newsletter and get
+       	   	 			  exlusive deals you wont find anywhere
+       	   	 		    else stright to your inbox!</p>
+       	   	 		 </div>    
+                 <div class="newsletter__form">
+       	   	 		      <form action="#" method="post" enctype="multipart/form-data">
+       	   	 		    	<div class="newsletter__form-inner">
+       	   	 	          <input type="email" placeholder="Email adress" name="email">
+       	   	 		    		<div class="newsletter__icon"><a href="#"><i class="far fa-paper-plane"></i></a></div>
+       	   	 		    	</div>
+       	   	 		      </form>
+       	   	 		 </div>
+       	   	 		</div>
+       	   	 	</div>
+       	   	 	<div class="col-3">
+                <div class="footer-top__inner">
+       	   	 		<div class="quick">
+       	   	 		  <h4>Quick Links</h4>
+       	   	 			<div class="quick__ul">
+       	   	 			<ul class="ul-1">
+       	   	 				<li><a href="#">About Us</a></li>
+       	   	 				<li><a href="#">Services</a></li>
+       	   	 				<li><a href="#">Portfolio</a></li>
+       	   	 				<li><a href="#gall">Gallery</a></li>
+       	   	 				<li><a href="#">Blog</a></li>
+       	   	 				<li><a href="#">Contact</a></li>
+       	   	 			</ul>
+       	   	 			<ul>
+       	   	 				<li><a href="#">Medical Services</a></li>
+       	   	 				<li><a href="#doc">Doctors</a></li>
+       	   	 				<li><a href="#">Laboratory</a></li>
+       	   	 				<li><a href="#dep">Departments</a></li>
+       	   	 				<li><a href="#">FAQ</a></li>
+       	   	 				<li><a href="#">Conditions</a></li>
+       	   	 			</ul>
+       	   	 		  </div>
+       	   	 		</div>
+               </div>
+       	   	 	</div>
+       	   	 	<div class="col-3">
+                <div class="footer-top__inner">
+       	   	 		<div class="gallery" id="gall">
+       	   	 			<h4>Gallery</h4>
+       	   	 			<div class="gallery__1">
+       	   	 				<div class="gallery__img">
+       	   	 					<a href="https://via.placeholder.com/80x80.png?text=84X84" data-fancybox="gallery">
+       	   	 					 <img src="https://via.placeholder.com/80x80.png?text=84X84" alt="">
+       	   	 					</a>
+       	   	 				</div>
+       	   	 				<div class="gallery__img">
+       	   	 					<a href="https://via.placeholder.com/80x80.png?text=84X84" data-fancybox="gallery">
+       	   	 					 <img src="https://via.placeholder.com/80x80.png?text=84X84" alt="">
+       	   	 					</a> 
+       	   	 				</div>
+       	   	 				<div class="gallery__img">
+                                <a href="https://via.placeholder.com/80x80.png?text=84X84" data-fancybox="gallery">
+       	   	 					 <img src="https://via.placeholder.com/80x80.png?text=84X84" alt="">
+       	   	 					</a>
+       	   	 				</div>
+       	   	 			</div>
+       	   	 			<div class="gallery__1">
+       	   	 				<div class="gallery__img">
+                                <a href="https://via.placeholder.com/80x80.png?text=84X84" data-fancybox="gallery">
+       	   	 					 <img src="https://via.placeholder.com/80x80.png?text=84X84" alt="">
+                                </a>
+       	   	 				</div>
+       	   	 				<div class="gallery__img">
+       	   	 					<a href="https://via.placeholder.com/80x80.png?text=84X84" data-fancybox="gallery">
+       	   	 					 <img src="https://via.placeholder.com/80x80.png?text=84X84" alt="">
+       	   	 					</a>
+       	   	 				</div>
+       	   	 				<div class="gallery__img">
+       	   	 					<a href="https://via.placeholder.com/80x80.png?text=84X84" data-fancybox="gallery">
+       	   	 					 <img src="https://via.placeholder.com/80x80.png?text=84X84" alt="">
+       	   	 					</a>
+       	   	 				</div>
+       	   	 			</div>
+       	   	 		</div>
+               </div>
+       	   	 	</div>
+       	   	 </div>
+       	   </div>
+       </footer>
+
+       <!--Footer-bottom markup-->
+
+       <footer class="footer-bottom">
+       	  <p>Copyrights&copy;2016<b>SOFITO</b>.All Rights Reserved</p>
+       </footer>
+
+       <!--Modal Fancybox-->
+
+	     <div style="display: none;" id="modal">
+          <h2>Hello!</h2>
+          <p>Please choose a day and time to make an appointment please contact us</p>
+       </div>
+
+       <!--Scripts-->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
